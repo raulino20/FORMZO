@@ -27,7 +27,7 @@ const Resultado = `NOME COMPLETO : ' ${User.nome}
 CPF :  ${User.cpf} 
 Cidade/Bairro : ${User.Cidade}
 Telefone : ${User.TELE}
-Email : ${User.Email}
+Email : ${User.EM}
 Numero de Sócio : ${User.NumSocio}
 Data de Associação : ${User.DSocio}`
 
@@ -39,7 +39,7 @@ if(User.nome && User.cpf && User.TELE && User.Cidade && User.EM && User.NumSocio
     CPF : ${User.cpf}
     Bairro : ${User.Cidade}
     Telefone : ${User.TELE}
-    Email : ${User.Email}
+    Email : ${User.EM}
     NumSocio : ${User.NumSocio}
     Associação : ${User.DSocio}`)
 
