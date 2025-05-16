@@ -46,7 +46,7 @@ if(User.nome && User.cpf && User.TELE && User.Cidade && User.EM && User.NumSocio
 
 
   if(Confirmar === true){
-    const Url = `https://wa.me/<5511965404572?text=${Resultado}`
+    const Url = `https://wa.me/${5511965404572}?text=${Resultado}`
     window.open(Url, '_blank');
  }else{
     alert('envio cancelado.')
