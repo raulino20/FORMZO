@@ -23,13 +23,7 @@ NumSocio:NSocio,
 DSocio:DateSocio
 }
 
-const Resultado = `NOME COMPLETO : ' ${User.nome}
-CPF :  ${User.cpf} 
-Cidade/Bairro : ${User.Cidade}
-Telefone : ${User.TELE}
-Email : ${User.EM}
-Numero de Sócio : ${User.NumSocio}
-Data de Associação : ${User.DSocio}`
+const Resultado = "NOME COMPLETO : " + User.nome + " CPF : " + User.cpf + " Cidade/Bairro : " + User.Cidade + " Telefone : " + User.TELE + " Email : " + User.EM + " Numero de Sócio : " + User.NumSocio + " Data de Associação : " + User.DSocio
 
 if(User.nome && User.cpf && User.TELE && User.Cidade && User.EM && User.NumSocio && User.DSocio !== ''){
    
