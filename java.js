@@ -47,7 +47,7 @@ if(User.nome && User.cpf && User.TELE && User.Cidade && User.EM && User.NumSocio
  }
 }else{
     alert(`UM OU MAIS CAMPOS NÃO FORAM PREENCHIDOS.
-             VERIFIQUE E TENTE NOVAMENTE `)
+             VERIFIQUE E TENTE NOVAMENTE! `)
  } 
 }
 
