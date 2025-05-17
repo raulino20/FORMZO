@@ -1,3 +1,76 @@
 
+.ContainerBanner {
+  background-image: url(../sass/image/ZO36.jpg);
+  padding: 0;
+  background-size: cover;
+  height: 40vh;
+  zoom: 110%;
+  background-position: top;
+  align-content: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .ContainerBanner {
+    background-image: url(../sass/image/ZO36.jpg);
+    padding: 0;
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    zoom: 130%;
+    align-content: flex-end;
+  }
+}
+@media (max-width: 768px) {
+  .ContainerBanner {
+    background-image: url(../sass/image/ZO36.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: top;
+    zoom: 140%;
+    align-content: flex-end;
+  }
+}
+@media (max-width: 600px) {
+  .ContainerBanner {
+    background-image: url(../sass/image/ZO36.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-position: top;
+    zoom: 120%;
+    align-content: flex-end;
+  }
+}
+@media (max-width: 425px) {
+  .ContainerBanner {
+    background-image: url(../sass/image/ZO36.jpg);
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    zoom: 150%;
+    align-content: flex-end;
+  }
+}
+@media (max-width: 320px) {
+  .ContainerBanner {
+    height: 40vh;
+    background-position: top;
+    zoom: 120%;
+  }
+}
+.TitleForm {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+@media (max-width: 425px) {
+  .TitleForm {
+    padding: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
 
 /*# sourceMappingURL=style.css.map */
