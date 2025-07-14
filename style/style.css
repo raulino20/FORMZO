@@ -1,3 +1,7 @@
+.ABC {
+  width: 75%;
+  border-top: 1px solid black;
+}
 
 .ContainerBanner {
   background-image: url(../sass/image/ZO36.jpg);
@@ -67,6 +71,41 @@
     padding: 0.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+  }
+}
+.TitleInput {
+  text-align: start;
+}
+
+@media (max-width: 1024px) {
+  .TitleInput {
+    font-size: large;
+  }
+}
+@media (max-width: 768px) {
+  .TitleInput {
+    font-size: smaller;
+  }
+}
+@media (max-width: 425px) {
+  .TitleInput {
+    font-size: medium;
+  }
+}
+.DivForm {
+  width: 75%;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .DivForm {
+    width: 80%;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 425px) {
+  .DivForm {
+    width: 90%;
+    border-radius: 10px;
   }
 }
 
