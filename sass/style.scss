@@ -1,18 +1,38 @@
+@mixin Width {
+    width: 75%;
+    border-radius: 10px;
+
+    @media(max-width:768px){
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    @media(max-width:425px){
+        width: 90%;
+        border-radius:10px;
+    }
+}
+
+
+.ABC{
+    width: 75%;
+    border-top: 1px solid black;
+}
 
 
 .ContainerBanner{
     background-image: url(../sass/image/ZO36.jpg);
-     padding: 0; 
+     padding: 0;
      background-size: cover; 
      height:40vh;
      zoom: 110%; 
      background-position: top; 
-     align-content: flex-end
+     align-content: flex-end;
 }
 
 @media(max-width:1024px){
-        .ContainerBanner{
-    background-image: url(../sass/image/ZO36.jpg);
+ .ContainerBanner{
+     background-image: url(../sass/image/ZO36.jpg);
      padding: 0; background-size: cover; 
      height:60vh; 
      background-position: center;
@@ -62,6 +82,7 @@
     }
 }
 
+
 .TitleForm{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -74,3 +95,31 @@
         font-size: medium;
     }
 }
+
+.TitleInput{
+  text-align: start;
+}
+
+
+@media(max-width:1024px){
+    .TitleInput{
+        font-size: large;
+    }
+}
+
+@media(max-width:768px){
+    .TitleInput{
+        font-size:smaller;
+    }
+}
+
+@media(max-width:425px){
+    .TitleInput{
+        font-size:medium;
+    }
+}
+
+.DivForm{
+   @include Width; 
+}
+
